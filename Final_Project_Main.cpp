@@ -348,7 +348,7 @@ void Graph<T>::pathToEuropaLeague(T startName, T endName, vector<string>& path){
         for(int i=0; i<vertices[startIndex].adj.size(); i++){
             if(vertices[startIndex].adj[i].v->tier<vertices[startIndex].tier){
                 path.push_back(vertices[startIndex].name);
-                pathToChampionsLeague(vertices[startIndex].adj[i].v->name, "Europa League", path);
+                pathToEuropaLeague(vertices[startIndex].adj[i].v->name, "Europa League", path);
                 return;
             }
         }
