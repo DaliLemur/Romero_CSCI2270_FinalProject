@@ -1,6 +1,8 @@
-# Romero_CSCI2270_FinalProject
-This is a test!
-Project Summary: This project will imiiplement graphs and other data structures by creating a network of european
-soccer leagues. The way the league system is structured the lower leagues feed into the upper leagues, and the top of 
-the uppermost leagues will feed into the european leagues. The user willthen be able to search for a team and get info 
-such as league, cups won last season, and possible league finishes for the upcoming season. 
+Jacob Romero
+CSCI 2270
+7/27/2017
+Final Project
+
+	This project incorporates various data structures in order to create a structure of the European Soccer League System. Functions within the program include some to find paths between various leagues, and others that display leagues and information about them. The league system is built on a graph structure, with each node containing information such as name, country, and adjacent leagues. 
+	When the program starts a paragraph explaining the core functionality should appear, followed by a menu that the user can from. For example one could choose option 2 to find the path to the Champions League. When promped the user could input Southern League Premier (a team at the bottom of the English system), and see the path a team in that division would need to take to get to the the Champions League. To see detailed information on a specific league just choose option 5, and type in a league. If the user inputs Bundesliga, the stats on the Bundesliga (the top league in Germany) will pop up. If the league is the top domestic league in the country then the user can choose to see all of the teams within it by enetering "Y". A helper menu is included within the program to offer extended information on each specific function, including some background information for those not familiar with how European soccer works. 
+	There are no dependencies required by this program. The main function should run without hiccups, assuming the header file is implemented correctly. The program is running on a Linux enviroment, and should be optimized in such an enviroment.
